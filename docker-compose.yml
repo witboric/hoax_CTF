@@ -1,6 +1,6 @@
 services:
   hoax:
-    image: ghcr.io/witboric/hoax-ctf:latest
+    image: hoax-ctf:private
     container_name: hoax-ctf
     ports:
       - "8080:8080"

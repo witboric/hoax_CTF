@@ -26,27 +26,35 @@ The challenge is designed so that each discovery leads naturally toward the next
 
 ## Setup
 
-Clone the repository:
+Download the latest release from the [Releases](https://github.com/witboric/hoax_CTF/releases) page.
 
-```bash
-git clone git@github.com:witboric/hoax_CTF.git
-cd hoax_CTF
+Download the following file:
+
+```text
+hoax-ctf.tar.gz
 ```
 
-Build and start the challenge:
+### 1. Load the Docker image
 
 ```bash
-docker compose build
+docker load -i hoax-ctf.tar.gz
+```
+
+### 2. Start the challenge
+
+```bash
 docker compose up -d
 ```
 
-The web interface will be available at:
+### 3. Open the web interface
+
+Open the following address in your browser:
 
 ```text
 http://localhost:8080
 ```
 
-To access the terminal environment:
+### 4. Access the terminal
 
 ```bash
 docker exec -it hoax-ctf /usr/local/bin/hoax-terminal
@@ -66,12 +74,11 @@ Sometimes the interesting part isn't the file itself, but **why it's there**.
 
 ---
 
-
 ## Difficulty
 
 **Intermediate**
 
-Recommended knowledge:
+### Recommended knowledge
 
 * Basic Linux commands
 * Basic web technologies
@@ -80,8 +87,7 @@ Recommended knowledge:
 * Basic privilege escalation concepts
 * Curiosity :)
 
-You don't need to know everything beforehand.
-The challenge is meant to reward investigation.
+You don't need to know everything beforehand. The challenge is meant to reward investigation.
 
 ---
 
@@ -93,7 +99,8 @@ Run it locally and only against systems you own or have explicit permission to t
 
 ---
 
+## Credits
 
 Created by **axis**
 
-Built for learning, experimentation, and anyone who enjoys breaking things just to understand how they work!
+Built for learning, experimentation, and anyone who enjoys breaking things just to understand how they work.
