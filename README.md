@@ -99,7 +99,7 @@ HOAX is an intentionally vulnerable CTF environment.
 
 Run it locally and only against systems you own or have explicit permission to test.
 
-Flag format: HOAX{..._..._...}
+Flag format: HOAX{...}
 
 ---
 
