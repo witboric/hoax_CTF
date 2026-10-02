@@ -1,5 +1,6 @@
-<img width="1600" height="900" alt="hoax-ctf-cover" src="https://github.com/user-attachments/assets/11020351-8d5b-40a0-9b4c-afc25c864d10" />
 # HOAX CTF
+<img width="1600" height="900" alt="hoax-ctf-cover" src="https://github.com/user-attachments/assets/11020351-8d5b-40a0-9b4c-afc25c864d10" />
+
 
 HOAX is a story-driven Capture The Flag challenge built around exploration rather than simply following a list of vulnerabilities.
 
